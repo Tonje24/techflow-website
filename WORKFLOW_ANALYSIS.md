@@ -15,6 +15,8 @@ It downloads the code from the repository onto the computer that runs the workfl
 ## 4. What is the purpose of the environment configuration?
 It sets up the github-pages environment, so GitHub knows where to publish the website and can show the link to the live site.
 
+GitHub also keeps a history of every deployment, which I can see under Deployments in the repository.
+
 ## 5. How does this automated deployment improve reliability compared to manual deployment?
 The same steps run in the same order every time, so nobody forgets a step. The HTML and links are checked before the site goes live, and the site is only deployed if the checks pass. This means fewer mistakes than deploying by hand.
 
